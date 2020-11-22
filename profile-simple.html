@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS | Profile Example</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+
+        #profile {
+            background-color: #555;
+            width: 400px;
+            text-align: left;
+            padding: 15px;
+            color: white; 
+        }
+
+    
+
+
+
+        img {
+            width: 150px;
+            background-color: #fff;
+            border-radius: 130px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: 5px solid black;
+        }
+        
+        h1 {
+            margin-bottom: 0;
+        }
+        
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        #skill-list {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0;
+        } 
+
+        .mandatory-skill {
+            color: lightskyblue;
+            
+        }
+
+        h3 {
+            margin-bottom: 0;
+            text-decoration-line: underline;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+  
+    <aside id="profile">
+  <!--HW1: Aside tag
+  Aside este un element semantic. Elementele semantice actioneaza ca un <div> element, grupand mai multe elemente in sectiuni. Insa, in timp ce un <div> poate contine orice tip de informatie, elementele sematice precum <aside> ajuta sa recunoastem mai usor ce tip de informatie contin aceste blocuri. 
+      Elementul <aside> este folosit pentru blocuri de informatie care nu sunt parte a informatiei de baza prezentate in pagina web, dar are o careva legatura sau este "related in some way".
+          In pagina pe care am creat-o, blocul aside ar putea fi "related" cu continutul de baza, dar nu e necesar informatia principala a paginei web sau posibil pe pagina ar putea fi mai multe profile-uri ale altor anagajati. 
+ 
+    -->
+
+  <img src="avatar.png" alt=" Jackson Smith">
+  <h1>Jckson Smith</h1>
+  <h2>CEO</h2>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium odio ratione, vitae nobis sed tempora dolore aliquid, porro quis, eum reiciendis ad molestiae consequuntur obcaecati.
+  </p>
+  
+    <h3>Skills</h3>
+   <ul id="skill-list">
+          <li class="mandatory-skill">Business Strategy & Planning</li>
+          <li class="mandatory-skill">Works Well Under Pressure</li>
+          <li class="mandatory-skill">Business Finance</li>
+          <li>Management Operations</li>
+          <li>International Business</li>
+          <li>Accountability & Determination</li>
+   </ul>
+  
+  
+
+    </aside>
+    
+</body>
+</html>
